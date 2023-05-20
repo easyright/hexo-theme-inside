@@ -28,12 +28,12 @@ appearance:
   font:
     # Url of font css file
     # Below is a font set containing Baloo Bhaijaan, Josefin Sans, Montserrat and Inconsolata from Google Fonts.
-    url: //fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Sarpanch|Lobster|cursive|Acme|Fira+Code|Kosugi+Maru
+    url: //fonts.cat.net/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Sarpanch|Lobster|cursive|Acme|Fira+Code|Kosugi+Maru
 
     # Base font which applied to body
     base: "'Josefin Sans', 'PingFang SC', 'Microsoft YaHei'"
     # Sidebar author font, fallback to `base`
-    logo:"'Lobster', 'cursive'"
+    logo: "'Lobster', 'cursive'"
     # Sidebar menu font, fallback to `base`
     menu: "'Acme', 'Ink Free'"
     # Font for:
@@ -301,12 +301,12 @@ copyright:
 # Built-in support Disqus (https://disqus.com) and LiveRe (https://livere.com),
 # for other comment system, see plugins
 comments:
-  # disqus:
-  #   shortname: disqus_shortname
+    disqus:
+        shortname: easyright
   #   # Or you can set disqus script URL directly
-  #   script: //disqus_shortname.disqus.com/embed.js
+        script: //easyright.disqus.com/embed.js
   #   # Autoload, default to `true`, set to `false` to display a button
-  #   autoload: false
+        autoload: false
 
 
 # ---------------------------------------------------------------
