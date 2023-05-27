@@ -11,7 +11,7 @@ appearance:
   # Border color, default '#e0e0e0'
   border_color:
   # body background, default '#f5f7fa'
-  background:
+  background: url(//https://cdn.jsdelivr.net/gh/easyright/cdn-loveon-store/pattern/noise_lines.png)
   # Sidebar background (when opened), default to accent_color
   sidebar_background:
   # Card background, default '#fff'
