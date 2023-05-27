@@ -11,7 +11,7 @@ appearance:
   # Border color, default '#e0e0e0'
   border_color:
   # body background, default '#f5f7fa'
-  background: url(//https://cdn.jsdelivr.net/gh/easyright/cdn-loveon-store/pattern/noise_lines.png)
+  background: url(//cdn.jsdelivr.net/gh/easyright/cdn-loveon-store/pattern/noise_lines.png)
   # Sidebar background (when opened), default to accent_color
   sidebar_background:
   # Card background, default '#fff'
@@ -156,7 +156,7 @@ footer:
 # ---------------------------------------------------------------
 
 # Page
-page:
+page: 5
   # Display Table of content, default to `true`
   # toc: false
 
@@ -169,7 +169,7 @@ page:
 
 # Post
 post:
-  # per_page: 10
+  per_page: 5
   # reading_time: false
   # reading_time:
   #   wpm: 150
@@ -182,31 +182,31 @@ post:
 
 # Archive
 archive:
-  # per_page: 10
+  per_page: 10
 
 # Tag
 tag:
-  # per_page: 10
+  per_page: 10
 
 # Category
 category:
-  # per_page: 10
+  per_page: 10
 
 # Search
 search:
   # Display a quick search button in fab
-  # fab: true
+  fab: true
 
   # Render a standalone searh page which can be configured in sidebar menu such as `Search: /search`
   # page: true
 
   # Local search
-  # adapter:
-  #   range:
-  #     - post
-  #     - page
+  adapter:
+    range:
+    - post
+    - page
   #   per_page: 20
-  #   limit: 10000
+    limit: 10000
 
   # Custom search
   # adapter:
