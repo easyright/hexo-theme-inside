@@ -395,20 +395,20 @@ plugins:
   # - cipher:
   #     placeholder: Passcode is required
   #     excerpt: Content encrypted
-  # - palette:
-  #     col: 5
-  #     theme: [
-  #       '#673ab7',
-  #       '#3f51b5',
-  #       '#2196f3',
-  #       '#009688',
-  #       '#4caf50',
-  #       '#ff9800',
-  #       '#ff5722',
-  #       '#795548',
-  #       '#607D8B',
-  #       '#2a2b33'
-  #     ]
+  - palette:
+      col: 5
+      theme: [
+        '#673ab7',
+        '#3f51b5',
+        '#2196f3',
+        '#009688',
+        '#4caf50',
+        '#ff9800',
+        '#ff5722',
+        '#795548',
+        '#607D8B',
+        '#2a2b33'
+      ]
 
   # Global Inject script/style
   # By default script will be injected into <body>, and style will be injected into <head>
@@ -423,19 +423,19 @@ plugins:
     # Or a path relative to `hexo.base_dir`
     # template: snippets/snippet-1.html
     
-  - tag: style
-    code: |
-        .writing {
-          writing-mode: vertical-rl;
-          -webkit-writing-mode: vertical-rl;
-          -ms-writing-mode: vertical-rl;
-          text-align: top-right;
-          width: 95%;
-          height: 520px;
-          overflow-x: auto;
-          padding-top: 20px;
-        }
-        .japanese {
-          font-family: 'A-OTF-KyokaICAPro-Light', 'Kosugi Maru';
-          font-size: 16px;
-        }
+  # - tag: style
+    # code: |
+        # .writing {
+          # writing-mode: vertical-rl;
+          # -webkit-writing-mode: vertical-rl;
+          # -ms-writing-mode: vertical-rl;
+          # text-align: top-right;
+          # width: 95%;
+          # height: 520px;
+          # overflow-x: auto;
+          # padding-top: 20px;
+        # }
+        # .japanese {
+          # font-family: 'A-OTF-KyokaICAPro-Light', 'Kosugi Maru';
+          # font-size: 16px;
+        # }
