@@ -1,0 +1,14 @@
+.writing {
+	writing-mode: vertical-rl;
+	-webkit-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;
+	text-align: top-right;
+	width: 95%;
+	height: 520px;
+	overflow-x: auto;
+	padding-top: 20px;
+	}
+.japanese {
+	font-family: 'A-OTF-KyokaICAPro-Light', 'Kosugi Maru';
+	font-size: 16px;
+	}
