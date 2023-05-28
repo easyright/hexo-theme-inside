@@ -103,9 +103,9 @@ profile:
   email: ivanhsu1995@gmail.com
 
   # You can set Avatar URL directly
-  # avatar:
+  avatar: https://cdn.loveon.top/image/avatar.jpg
 
-  bio: Awesome guy.
+  bio: No.1にならなくてもいい、もともと特别なonly one。
 
 # Sidebar navigation links
 menu:
