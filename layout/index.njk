@@ -17,6 +17,9 @@
 {% if config.feed and config.feed.path -%}
 <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ url_for(config.feed.path) }}">
 {%- endif %}
+{% if theme.mermaid.enable %}
+<script src='https://unpkg.com/mermaid@{{theme.mermaid.version}}/dist/mermaid.min.js'></script><script>if(window.mermaid){mermaid.initialize({theme:'forest'});}</script>
+{% endif %}
 {{ ga(theme.ga) if theme.ga }}
 </head>
 <body lang="{{ config.language }}"></body>
