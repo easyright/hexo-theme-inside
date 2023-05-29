@@ -423,4 +423,4 @@ plugins:
     # Or a path relative to `hexo.base_dir`
     # template: snippets/snippet-1.html
     
-  - scripts/mystyle.css
+  - https://cdn.jsdelivr.net/gh/easyright/cdn-loveon-store/scripts/mystyle.min.css
