@@ -301,12 +301,12 @@ copyright:
 # Built-in support Disqus (https://disqus.com) and LiveRe (https://livere.com),
 # for other comment system, see plugins
 comments:
-    disqus:
-        shortname: easyright
+  # disqus:
+  #   shortname: easyright
   #   # Or you can set disqus script URL directly
-        script: //easyright.disqus.com/embed.js
+  #   script: //easyright.disqus.com/embed.js
   #   # Autoload, default to `true`, set to `false` to display a button
-        autoload: false
+  #   autoload: false
 
 
 # ---------------------------------------------------------------
